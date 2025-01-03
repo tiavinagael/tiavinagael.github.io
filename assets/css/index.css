@@ -1,0 +1,159 @@
+:root {
+    --main-bg-color: white;
+    --main-txt-color: #444444;
+    --second-txt-color: #00853A;
+    --green-bg-color-light: #A4D7B5;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-txt-color);
+    margin: 0;
+    padding: 0px 95px;
+}
+
+body a {
+    text-decoration: none;
+    color: var(--main-txt-color);
+}
+
+header, .header-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 20px 0px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.header-text {
+    color: var(--second-txt-color);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+}
+
+.header-logo img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain;
+}
+
+.header-right {
+    align-items: center;
+    gap: 50px;
+}
+
+.header-letstalk {
+    background-color: var(--second-txt-color);
+    color: var(--main-bg-color);
+    padding: 13px 30px;
+    border-radius: 40px;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 0px 20px;
+}
+
+nav ul li a {
+    font-size: 14px;
+}
+
+.home-fullname {
+    font-size: 16px;
+    background-color: var(--green-bg-color-light);
+    color: var(--second-txt-color);
+    width: fit-content;
+    padding: 5px 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.home-greeting, .home-func {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 80px;
+}
+
+.home-photo {
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.home-photo img {
+    width: 25vw;
+    height: 100%;
+    object-fit: contain;
+}
+
+.home-func span {
+    color: var(--second-txt-color);
+}
+
+.home-description {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.home-links {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.home-a {
+    display: block;
+    background-color: var(--second-txt-color);
+    color: var(--main-bg-color);
+    padding: 13px 30px;
+    border-radius: 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.home-links-right {
+    display: flex;
+    gap: 10px;
+}
+
+.home-links-right a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: var(--second-txt-color);
+    color: var(--main-bg-color);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
